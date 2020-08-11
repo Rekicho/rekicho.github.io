@@ -1,0 +1,96 @@
+.row > div {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    cursor: pointer;
+}
+
+.row {
+    height: 100px;
+    clear: both;
+}
+
+@media only screen and (max-width: 750px) {
+    .row > div {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .row {
+        height: 50px;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .row > div {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .row {
+        height: 25px;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .row > div {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+    }
+
+    .row {
+        height: 10px;
+        clear: both;
+    }
+}
+
+.apple {
+    background-image: url("img/apple.png");
+}
+
+.banana {
+    background-image: url("img/banana.png");
+}
+
+.cherry {
+    background-image: url("img/cherry.png");
+}
+
+.grape {
+    background-image: url("img/grape.png");
+}
+
+.orange {
+    background-image: url("img/orange.png");
+}
+
+.watermelon {
+    background-image: url("img/watermelon.png");
+}
+
+.row > div.selected {
+    border: 5px solid green;
+}
+
+button {
+    display: block;
+    clear: both;
+    height: 50px;
+    width: 200px;
+}
+
+footer {
+    padding-top: 25px;
+}
