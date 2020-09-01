@@ -80,6 +80,15 @@
     background-image: url("img/watermelon.png");
 }
 
+.followsMouse {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+
 .row > div.selected {
     border: 5px solid green;
 }
