@@ -1,0 +1,58 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallelogram {
+    background-color: purple;
+    width: 75%;
+    height: 50%;
+    transform: skew(-20deg);
+    text-align: center;
+}
+
+.inside {
+    /* shape-outside: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); do outside polygon */
+    transform: skew(20deg);
+    color: lime;
+    display: inline-block;
+}
+
+/* .photo {
+    width: 100%;
+    height: 25vh;
+    clear: left;
+} */
+
+.photo img {
+    width: 13%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.inside p {
+    margin-right: 5%;
+}
+
+.links a {
+    font-size: 2.5em;
+    margin: 2px;
+    margin-right: 5px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color: lime;
+    text-decoration: none;
+}
